@@ -30,5 +30,5 @@ variable "region" {
 variable "instance_type" {
   type        = string
   description = "(Optional) Specifies the AWS instance type. Defaults to t2.micro."
-  default     = "t2.micro"
+  default     = "t2.small"
 }
